@@ -114,3 +114,13 @@ This website showcases Saints Lifestyle Apparel products with a modern, responsi
 1. Clone the repository
    ```bash
    https://github.com/ST10471796/POE.Part3ST10471796saints-lifestyle.git
+
+refernce:
+
+Krug, S. (2014) *Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability*. 3rd edn. Berkeley, CA: New Riders Press.
+
+MDN Web Docs (2024) *JavaScript documentation*. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript (Accessed: 19 November 2025).
+
+W3C (2023) *HTML Living Standard*. Available at: https://html.spec.whatwg.org/ (Accessed: 19 November 2025).
+
+W3C (2023) *CSS Snapshot 2023*. Available at: https://www.w3.org/TR/CSS/ (Accessed: 19 November 2025).
