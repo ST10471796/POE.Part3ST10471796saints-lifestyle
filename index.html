@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saints | Premium Lifestyle Apparel | Hoodies, Beanies & Jeans</title>
+    <meta name="description" content="Saints Lifestyle Apparel - Premium streetwear including hoodies, beanies, and jeans. South African brand focused on quality and comfort.">
+    <meta name="keywords" content="saints apparel, lifestyle brand, hoodies, beanies, jeans, streetwear, south african clothing">
+    <meta name="author" content="Saints Lifestyle">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">SAINTS</a>
+                
+               <ul class="nav-links">
+                    <li><a href="#hoodies">Hoodies</a></li>
+                    <li><a href="#beanies">Beanies</a></li>
+                    <li><a href="#jeans">Jeans</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                </ul>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main class="main-content">
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>SAINTS LIFESTYLE</h1>
+                <p>Elevate your everyday</p>
+                <a href="#hoodies" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <!-- Search functionality -->
+        <section class="search-section">
+            <div class="container">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search products...">
+                    <button id="searchButton" class="btn">Search</button>
+                </div>
+                <div id="searchResults" class="search-results"></div>
+            </div>
+        </section>
+
+        <!-- Hoodies section -->
+        <section id="hoodies" class="product-section">
+            <div class="container">
+                <h2>HOODIES</h2>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/hoddie.jpeg" 
+                                
+                                sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px"
+                                alt="Saints Premium Black Hoodie - Comfortable cotton blend with embroidered logo">
+                        </div>
+                        <h3>Premium Hoodie</h3>
+                        <p>R450</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beanies section -->
+        <section id="beanies" class="product-section">
+            <div class="container">
+                <h2>BEANIES</h2>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/beanie.jpeg" 
+                                
+                                sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px"
+                                alt="Saints Classic Beanie - Warm acrylic knit with subtle branding">
+                        </div>
+                        <h3>Classic Beanie</h3>
+                        <p>R150</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jeans section -->
+        <section id="jeans" class="product-section">
+            <div class="container">
+                <h2>JEANS</h2>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img  src="images/jeans.jpeg" 
+                               
+                                sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px"
+                                alt="Saints Slim Fit Jeans - Premium denim with comfortable stretch">
+                        </div>
+                        <h3>Slim Fit Jeans</h3>
+                        <p>R600</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery with lightbox -->
+        <section class="gallery-section">
+            <div class="container">
+                <h2>STYLE GALLERY</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/casual streetwear.jpg" alt="Customer wearing Saints hoodie in urban setting" data-large="images/gallery1-large.jpeg">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/denim streetwaer.webp" alt="Saints beanie styled with casual outfit" data-large="images/gallery2-large.jpeg">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/orange streetwear.webp" alt="Saints jeans paired with streetwear" data-large="images/gallery3-large.jpeg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section with accordion -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>ABOUT SAINTS</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">Our Story</button>
+                        <div class="accordion-content">
+                            <p>Saints is a South African lifestyle brand dedicated to creating high-quality, comfortable apparel for everyday wear. Our mission is to blend streetwear aesthetics with premium comfort, creating pieces that elevate your daily life.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Our Mission</button>
+                        <div class="accordion-content">
+                            <p>Founded in 2023, Saints has quickly become a favorite among those who appreciate quality craftsmanship and understated style. We believe in creating clothing that lasts, both in terms of durability and style.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Quality Promise</button>
+                        <div class="accordion-content">
+                            <p>Every Saints product is crafted with attention to detail, using premium materials that ensure comfort and longevity. We stand behind the quality of our apparel with a satisfaction guarantee.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>CONTACT US</h2>
+                <form class="contact-form" id="homeContactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SAINTS</h3>
+                    <p>Elevate your everyday with our premium lifestyle apparel.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hoodies">Hoodies</a></li>
+                        <li><a href="#beanies">Beanies</a></li>
+                        <li><a href="#jeans">Jeans</a></li>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>info@saints.co.za</p>
+                    <p>+27 676 484 634</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Saints. All Rights Reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

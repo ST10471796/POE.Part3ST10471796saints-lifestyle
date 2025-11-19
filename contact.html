@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Saints Lifestyle Apparel</title>
+    <meta name="description" content="Get in touch with Saints Lifestyle Apparel. Send us a message and we'll respond as soon as possible.">
+    <meta name="keywords" content="contact saints, apparel brand, customer service, message saints">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">SAINTS</a>
+                <ul class="nav-links">
+                    <li><a href="index.html#hoodies">Hoodies</a></li>
+                    <li><a href="index.html#beanies">Beanies</a></li>
+                    <li><a href="index.html#jeans">Jeans</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                </ul>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>CONTACT US</h1>
+                <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>GET IN TOUCH</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@saints.co.za</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+27 676 484 634</p>
+                            </div>
+                        </div>
+                        <!-- In the contact section of contact.html -->
+<div class="contact-item">
+    <i class="fas fa-map-marker-alt"></i>
+    <div>
+        <h3>Location</h3>
+        <p>Sabie, Mpumalanga, South Africa</p>
+    </div>
+</div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <h2>SEND US A MESSAGE</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="contactName">Full Name *</label>
+                                <input type="text" id="contactName" name="name" required>
+                                <span class="error-message" id="contactNameError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address *</label>
+                                <input type="email" id="contactEmail" name="email" required>
+                                <span class="error-message" id="contactEmailError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number</label>
+                                <input type="tel" id="contactPhone" name="phone">
+                                <span class="error-message" id="contactPhoneError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="messageType">Message Type *</label>
+                                <select id="messageType" name="messageType" required>
+                                    <option value="">Select an option</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="support">Customer Support</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="complaint">Complaint</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span class="error-message" id="messageTypeError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactMessage">Your Message *</label>
+                                <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                                <span class="error-message" id="contactMessageError"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                        
+                        <div id="contactResponse" class="response-message"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Interactive Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <h2>FIND US</h2>
+                <div id="map" class="interactive-map"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SAINTS</h3>
+                    <p>Elevate your everyday with our premium lifestyle apparel.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#hoodies">Hoodies</a></li>
+                        <li><a href="index.html#beanies">Beanies</a></li>
+                        <li><a href="index.html#jeans">Jeans</a></li>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>info@saints.co.za</p>
+                    <p>+27 676 484 634</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Saints. All Rights Reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Leaflet CSS and JS for interactive maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
